@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>미소의 성장</title>
+        <style>
+            @font-face {
+                    font-family: 'NEXON Lv1 Gothic OTF';
+                    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+            }
+            @font-face {
+                    font-family: 'NEXON Lv1 Gothic OTF Bold';
+                    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+            }
+            body { margin : 0 ;
+                padding : 0 ;
+            }
+            p { color :rgb(47, 47, 47) }
+            a:link { color : rgb(70, 70, 70)}
+            a:visited { color : rgb(70, 70, 70) ; }
+            a:hover { color : rgb(195, 124, 124) }
+            a:active { color : white }
+            .con {
+                width : 1000px ;
+                height : 1380px ;
+                padding : 0 20px 20px 20px ;
+                margin : 0 auto ;
+                background : #fce2c4 ;
+                font-family: 'NEXON Lv1 Gothic OTF';
+            }
+            .top {
+                margin : 0 10px ;
+                padding : 20px ;
+                width : 940px ;
+                height : 70px ;
+                background-image : url('sky.jpg') ;
+                background-size : 100% ;
+                background-repeat : none ;
+                background-attachment : local ;
+                background-position : 0px 50%;
+                border-radius : 0 0 40px 40px ;
+                border : none ;
+            }
+            .top > h1 {
+                margin : 0 0 0 130px ;
+                padding : 0 0;
+                float : left ;
+                font-family: 'NEXON Lv1 Gothic OTF Bold';
+                color :rgb(47, 47, 47) ;
+            }
+            li {
+                list-style : none ;
+                float: left ;
+                margin : 30px 10px 10px 10px ;
+            }
+            li > a { display : block ; }
+            a { text-decoration : none ; }
+            /*----------------------------첫번째 소개목록!!!---------------------*/
+            .sogae { 
+                background : rgb(255, 255, 255) ; 
+                border : none ;
+                border-radius : 50px ;
+                width : 200px ;
+                height : 40.8px ;
+                font-size : 18px ;
+                line-height : 7px ;
+                margin : 20px auto 0 auto ;
+                padding : 3px ;
+            }
+            .fo { text-align : center ; }
+            /*-------------------앞에 박스 두개--------------------*/
+            .int {
+                width : 315px ;
+                height : 773px ;
+                background : rgb(253, 253, 253) ;
+                margin : 30px 0 20px 15px ;
+                border : none ;
+                border-radius : 30px ;
+                float : left ;
+            }
+            .im1 {
+                overflow : hidden ;
+                width : 275px ;
+                height : 185px ;
+                padding : 20px 20px 15px 20px ;
+            }
+            .im1 > img {
+                border : none ;
+                border-radius : 30px ;
+                margin : 0 ;
+            }
+            .int > p {
+                font-size : 16px ;
+                line-height : 25px ;
+                margin : 0 7px 0 10px ;
+                padding : 5px ;
+            } 
+            /*--------------본문안에 들어가잇는 이미지----------*/
+            .im2 {
+                overflow : hidden ;
+                width : 180px ;
+                height : 150px ;
+                padding : 0 15px 0 5px ;
+                margin : 0 ;
+                float : right ;
+            }
+            .im2 > img {
+                border : none ;
+                border-radius : 20px ;
+            }
+            .im3 {
+                overflow : hidden ;
+                width : 180px ;
+                height : 128px ;
+                padding : 0 8px 0 15px ;
+                margin : 0 ;
+                float : left ;
+            }
+            .im3 > img {
+                border : none ;
+                border-radius : 20px ;
+            }
+            /*----------------마지막 박스-------------*/
+            .int2 {
+                width : 315px ;
+                height : 773px ;
+                background : rgb(253, 253, 253) ;
+                margin : 30px 0 20px 15px ;
+                border : none ;
+                border-radius : 30px ;
+                float : left ;
+            }
+            .int2 > p {
+                font-size : 15px ;
+                line-height : 24px ;
+                margin : 0 7px 0 10px ;
+                padding : 5px ;
+            }
+            .im4 {
+                overflow : hidden ;
+                width : 275px ;
+                height : 175px ;
+                padding : 0 ;
+                margin : 5px 15px 0 15px ;
+            }
+            .im4 > img {
+                border : none ;
+                border-radius : 20px ;
+            }
+            /*----------고등학교------------*/
+            .int3 {
+                background : white ;
+                width : 935px ;
+                height : 330px ;
+                overflow : hidden ;
+                border : none ;
+                border-radius : 30px ;
+                padding : 20px ;
+                margin : 10px 15px ;
+            }
+            .int3 > img {
+                float : left ;
+                border : none ;
+                border-radius : 20px ;
+            }
+            .int3 > img:first-child { margin : 5px 15px 5px 5px ; }
+            .int3 > p {
+                font-size : 17px ;
+                line-height : 26px ;
+                margin : 10px 10px 0 10px ;
+            }
+            .int3 > img:nth-child(2n) { float : right }
+            .ss { 
+                overflow : hidden ;
+                width : 815px ;
+                height : 104px ;
+                margin : 0 ;
+                padding : 0 ;    
+            }
+            .ss > p {
+                font-size : 17px ;
+                line-height : 26px ;
+                margin : 0 10px 10px 10px ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="con">
+            <div class="top">
+                <ul>
+                    <li><a href="index.html">
+                        1page</a></li>
+                    <li><a href="2200277_02.html">
+                        2page</a></li>
+                    <li><a href="2200277_03.html">
+                        3page</a></li>
+                </ul>
+                <h1>미소의 세상</h1>
+            </div>
+            <div class="sogae fo">
+                <p>미소의 성장</p>
+            </div> 
+            <!-----------------의정부 어린이집------------------->
+            <div class="int">
+                <div class="im1">
+                    <img src="ujbkids.jpeg" alt="의정부 어린이집 전경" width="275px" height="185px">
+                </div>
+                <p>
+                    • 의정부 어린이집<br>
+                    <a href="https://www.google.co.kr/maps/place/%EC%9D%98%EC%A0%95%EB%B6%80%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91/data=!4m6!3m5!1s0x357cc72ef4c74d7d:0x8705cc9ab830768c!8m2!3d37.7466208!4d127.046805!16s%2Fg%2F11g0kj5ldb?authuser=0&hl=ko&rclk=1">
+                    • 경기도 의정부시 의정부동 226 10번지</a>
+                    • 재학 기간: 2006년 1월 ~ 2009년 2월<br>
+                    &nbsp; <br>
+                    &nbsp;아픈 이후 무럭무럭 자라나던 강미소는 부모님의 육아휴직이 끝나자 
+                    2살 차이의 동생과 함께 어린이집에 가게 되었다. 교회
+                </p>
+                    <div class="im2">
+                        <img src="yuding.jpg" alt="동생과 찍은 강미소의 6살 경 사진" width="180px" height="150px">
+                    </div>
+                <p>
+                    에서 어린이집, 작은 요양원
+                    까지 모두 운영하는 신기한 곳이었다. 그녀는 굉장히 활발했는데, 
+                    어머니의 과일 깎는 모습을 보고 나서다가 손을 크게 다쳤다. 그리고 창고에 있던 세발자전거를
+                    타겠다고 고집을 부리다 자전거를 떨어트려 왼쪽 발등에 흉터가 남았다. 이런 강미소의 
+                    모습에서 어머니는 그녀가 아기일 시절 자주 듣던 사내 대장부가 생각났다고 한다. 그리고 그
+                    기질은 <br>초등학교에서 정확히 발현된다...
+                </p>
+            </div><!-------------------의정부 초등학교------------------->
+            <div class="int">
+                <div class="im1">
+                    <img src="ujb.png" alt="의정부초등학교 전경" width="275px" height="185px">
+                </div>
+                <p>
+                    • 의정부 초등학교<br>
+                    <a href="https://www.google.co.kr/maps/place/%EC%9D%98%EC%A0%95%EB%B6%80%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90/data=!3m1!4b1!4m5!3m4!1s0x357cc73ddfd78e4d:0x95689fff6620e948!8m2!3d37.7348609!4d127.0599517?hl=ko">
+                    • 경기도 의정부시 동일로522번길 30</a><br>
+                    • 재학 기간: 2009년 3월 ~ 2015년 2월<br>
+                    &nbsp; <br>
+                    &nbsp;행복한 어린이집 생활이 끝나고 강미소는 어머니가 근무하시는 초등학교로
+                    가게 되었다. 어린이집과 거리가 꽤 있는 낯선 동네라 아는 친구들
+                    한 명 없이 혼자 시작하게 되었는데, 다행히 입학 일주일 만에 반
+                    모두와 친구가 되었다. 이 사진은 그녀와
+                </p>
+                <div class="im3">
+                    <img src="4gkr.jpg" alt="강미소와 그의 동생 두명이 카메라를 보며 브이하고 있는 사진"
+                    width="180px" height="128px">
+                </div>
+                <p>
+                    동생들인데, 남동생은 그녀가 7살 때 태어났다.
+                    그리고 초등학교 6년 내내 강미소의 별명은 '조폭 마누라'였다. 
+                    짓궂게 구는 남자애들에게 기죽지 않고 더 세게 대들어 사내 같다는 말이 결국 예언이 되어버렸다.
+                    초등학생 주제에 남자친구도 사귀고 사춘기 왔다고 말도 잘 안 듣고
+                    이때가 내 인생의 흑역사라고 할 수 있다.
+                </p>
+            </div><!----------------------발곡 중학교-------------------->
+            <div class="int2">
+                <div class="im1">
+                    <img src="bgmiddle.jpg" alt="발곡중학교 전경" width="275px" height="185px">
+                </div>
+                <p>
+                    • &nbsp;발곡 중학교<br>
+                    <a href="https://www.google.co.kr/maps/place/%EB%B0%9C%EA%B3%A1%EC%A4%91%ED%95%99%EA%B5%90/data=!3m1!4b1!4m5!3m4!1s0x357cc7442210e045:0x1cbe2b7fffb4f76b!8m2!3d37.7274606!4d127.0548989?hl=ko">
+                    • &nbsp;경기도 의정부시 회룡로 185</a><br>
+                    • &nbsp;재학 기간: 2015년 3월 ~ 2018년 2월<br>
+                    &nbsp; <br>
+                    &nbsp;강미소는 초 6 때 사춘기를 겪어 중2병은 오지 않았지만
+                    그걸 대체할 많은 사건을 겪게 됐다. 이번에도 마찬가지로 
+                    초등학교에서 꽤 떨어진 집 근처의 중학교로 오게 되었다.
+                    1, 2학년 때는 각종 무리의 기 싸움에 치였지만
+                    견뎌내고 나니 정말 좋은 친구들을 만날 수 있었다.
+                    3학년 때는 괜찮은 하루하루를 보냈고
+                    몰래 학교를 빠지기도 해보며 여러 추억을 많이 남겼다.
+                    그렇게 많은 일들을 겪고 올라간 고등학교에서는 더 좋은 일들이 많이 생긴다!!    
+                </p>
+                <div class="im4">
+                    <img src="wndgkrry.jpeg" alt="중학생 강미소와 친구들이 웃긴 표정을 짓고있는 사진"
+                    width="275px" height="175px">
+                </div>
+            </div><!------------발곡고등학교--------------->
+            <div class="int3">
+                <img src="bghigh.jpg" alt="발곡고등학교의 전경" width="280px" height="163.5px">
+                <p><a href="http://www.balgok.hs.kr/wah/main/index.htm">
+                    &nbsp;• 발곡 고등학교</a><br>
+                    <a href="https://www.google.com/maps/place/%EB%B0%9C%EA%B3%A1%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90/data=!3m1!4b1!4m5!3m4!1s0x357cc713681a116b:0x841c22fe4d759225!8m2!3d37.7284888!4d127.0675951">
+                    &nbsp;• 경기도 의정부시 동일로 454번길 150</a><br>
+                    &nbsp;• 재학 기간: 2018년 3월 ~ 2021년 2월
+                </p>
+                <p>
+                    &nbsp;&nbsp;강미소의 신나고 즐거운 학창생활은 고등학교에서부터 
+                    진짜 시작된다. 초등학교, 중학교 진학 때와 달리 중학교의 거의 
+                    모든 친구들이 같은 고등학교로 왔고, 새로운 친구들도 많이 사귀며 
+                    행복한 나날을 보냈다. 점점 커가며
+                    내향적인 성격이 커지던 그녀는 주변의 시선에 민감하게 반응했는데
+                    2학년 때 만난 좋은 친구들과 좋은 선생님 덕분에 자신감을 많이 회복해
+                    학생회도 도전하고, 여러 교내 대회에 출전하거나 동아리 차장도 겸해보며
+                    여러 다양한 경험을 쌓았다. 그녀는 수학을 꽤 하는 편이었는데, 올라간
+                </p>
+                    <img src="ryqhr.jpg" alt="강미소가 교복을 입고 카메라 쪽을 돌아보며 브이하고 있는 사진" width="120px" height="104px">
+                <div class="ss">
+                    <p>
+                        자신감 덕분에 그 두각이 2학년 때 제대로 나타나기 시작한다.
+                        1학년 때 갈피를 잡기 힘들어 자퇴까지 생각했지만 2학년 때
+                        만난 수많은 과목들에게 매료되어 정말 재밌게, 열심히 공부했다.
+                        하지만 대부분이 그렇듯 성적 앞에서 아쉽게 꿈을 접었고
+                        성적에 맞춰 첫 대학에 가게 되었다. 3년 내내 정말 좋은 기억만
+                        생각 날 정도로 행복했고, 앞으로도 이 기억을 떠올리며 즐겁게 
+                        살아갈 수 있을 것 같다. 그녀 인생의 황금기였던 것 같다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
